@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/v_fliper"
+            android:layout_centerHorizontal="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/v_fliper"
+            >
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Academic Calender"
+                android:id="@+id/ac"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"
+                />
+            <Button
+                android:layout_below="@+id/ac"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Downloads"
+                android:id="@+id/Downloads"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"
+                />
+            <Button
+                android:layout_below="@+id/Downloads"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:text="Locate Us"
+                android:id="@+id/locateus"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="17sp"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

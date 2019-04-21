@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1047502946196",
+    "firebase_url": "https://utunotify-68316.firebaseio.com",
+    "project_id": "utunotify-68316",
+    "storage_bucket": "utunotify-68316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047502946196:android:88c18b1952f34d41",
+        "android_client_info": {
+          "package_name": "students.afor.app.android.notify.utu.utunotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047502946196-dit72v59aeeenfmnnt48h715vjiur275.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "students.afor.app.android.notify.utu.utunotify",
+            "certificate_hash": "8b7f565476ce8e18e8d4dbbc623738b68aa6c136"
+          }
+        },
+        {
+          "client_id": "1047502946196-svujmb04oo9v115earaur2tkb3bodprn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ5qdQqU5PdFezOowWtlVRgnhwtGjcwrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047502946196-svujmb04oo9v115earaur2tkb3bodprn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
